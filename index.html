@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<!--La grande balise de depart avec bootstrap-->
+		<div class="container">
+			<!--La  balise à l'interieur de la balise de départ avec bootstrap-->
+			<!--Le body est subdivisé en 12 parties. Il y a 4 types d'écrans: xs, sm, md, lg. -->
+			<!--col-Lg est uniquement utilisé par les écrans larges, col-md: moyen, col-sm: petit, col-xs: très petit-->
+			<div class="row">
+				<div class="col-md-6">Salimata</div>
+				<div class="col-md-6 col-sm-12">Alima</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4" id="partie1"></div>
+				<div class="col-md-4" id="partie2"></div>
+				<div class="col-md-4" id="partie3"></div>
+			</div>
+
+			<div class="row">
+				<!--utlisation de formulaire avec bootstrap-->
+				<form class="">
+					<div class="form-group">
+						<label>Nom</label><br>
+						<input type="text" name="" class="form-control">
+					</div>
+
+					<div class="form-group">
+						<label>Genre</label><br>
+						F : <input type="radio" name="genre1" class="form-control">
+						M :<input type="radio" name="genre1" class="form-control">
+					</div>
+					<div class="form-group">
+						<select class="form-control">
+							<option>Coding</option>
+							<option>Digital Management</option>
+							<option>Entrepreneuriat</option>
+						</select>
+					</div>
+
+						<button type="submit" class="btn btn-primary">Envoyer</button>
+
+				</form>
+			</div>
+
+		</div>
+	</body>
+</html>
